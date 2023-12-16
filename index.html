@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+<body onload="generateCode()">
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="inner-container">
+            <p id="passwordDisplay"></p>
+            <button onclick="generateCode()"><img src="images/reset.png"></button>
+        </div>
+        <div class="config-section">
+            <span id="lengthIndicator">06</span>
+            <input type="range" name="" id="passwordLength" min="6" max="12" value="06" oninput="updatePasswordLength()">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
