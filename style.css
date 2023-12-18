@@ -35,7 +35,6 @@ h1 {
     font-weight: bold;
     letter-spacing: 0.5rem;
     width: fit-content;
-    user-select: none;
     text-align: center;
     padding: 0.2rem;
 }
@@ -46,11 +45,11 @@ h1 {
     width: fit-content;
     align-items: center;
     margin: 2rem auto;
+    padding: 0.5rem;
     margin-top: 1rem;
-    border-radius: 0.5rem;
     border-radius: 10px;
-    box-shadow: 4px 4px 7px #bebebe,
-        -4px -4px 7px #f9f9f9;
+    box-shadow: inset 2px 4px 6px #bebebe,
+        -4px -4px 7px #f9f9f9a6;
 }
 
 button {
